@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//  Exibir o resultado da multiplicação do número 2 por 10.
+		int mutiplicador = 2;
+		Console.WriteLine(mutiplicador + " x 1 = " + mutiplicador * 1);
+		Console.WriteLine(mutiplicador + " x 2 = " + mutiplicador * 2);
+		Console.WriteLine(mutiplicador + " x 3 = " + mutiplicador * 3);
+		Console.WriteLine(mutiplicador + " x 4 = " + mutiplicador * 4);
+		Console.WriteLine(mutiplicador + " x 5 = " + mutiplicador * 5);
+		Console.WriteLine(mutiplicador + " x 6 = " + mutiplicador * 6);
+		Console.WriteLine(mutiplicador + " x 7 = " + mutiplicador * 7);
+		Console.WriteLine(mutiplicador + " x 8 = " + mutiplicador * 8);
+		Console.WriteLine(mutiplicador + " x 9 = " + mutiplicador * 9);
+		Console.WriteLine(mutiplicador + " x 10 = " + mutiplicador * 10);
+	}
+}
