@@ -1,0 +1,14 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		// Este exemplo calcula a idade de uma pessoa subtraindo o ano atual pelo ano de nascimento dela.
+		string nome = "Ana";
+		int anoDeNascimento = 1990;
+		int anoAtual = 2024;
+		int idade = anoAtual - anoDeNascimento;
+		Console.WriteLine("Olá " + nome + " você tem " + idade);
+	}
+}
