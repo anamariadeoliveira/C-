@@ -1,0 +1,27 @@
+using System;
+namespace ParouImpar
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int NumeroDigitado;
+            Console.WriteLine("Insira um numero");
+
+            NumeroDigitado = Convert.ToInt32(Console.ReadLine());
+
+            if (NumeroDigitado % 2 == 0)
+            {
+                Console.WriteLine("Par");
+
+            }
+            else
+            {
+                Console.WriteLine("Impar");
+            }
+            Console.ReadKey();
+            
+        }
+    }
+}﻿
+
